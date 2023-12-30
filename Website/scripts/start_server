@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /var/www/html/
+#nodemon app.js
+nohup node app.js > /var/log/node_server.log 2>&1 &
